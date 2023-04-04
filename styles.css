@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    font-size: 48px;
+  }
+  
+  form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  #weather-info {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+
+  .cityName{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
